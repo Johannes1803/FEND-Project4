@@ -35,9 +35,6 @@ var Enemy = function(x,y, enemy_speed) {
     // load the enemy image from source
     // Call superclass Character to add x,y and image
     Character.call(this, x,y, 'images/enemy-bug.png');
-    //this.sprite = 'images/enemy-bug.png';
-    // set the x coordinate
-    //this.x = x;
     // assign the speed property
     this.speed = enemy_speed;
 
@@ -122,9 +119,6 @@ Player.prototype.update = function() {
     }
 };
 
-/*Player.prototype.render = function() {
-    ctx.drawImage(Resources.get(this.sprite), this.x, this.y);
-};*/
 // Now instantiate your objects.
 // Place all enemy objects in an array called allEnemies
 // Place the player object in a variable called player
