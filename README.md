@@ -1,6 +1,21 @@
-frontend-nanodegree-arcade-game
-===============================
+# Java Script ARCADE GAME
 
-Students should use this [rubric](https://www.udacity.com/course/viewer/#!/c-nd001/l-2696458597/m-2687128535) for self-checking their submission.
+## What is it?
 
-For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
+A game based on  HTML canvas and JavaScript. 
+
+## How do I start the game?
+In order to play it open the .html file in a browser of your choice.
+
+## What rules do I need to know?
+Goal of the game: reach the water at the top of the page
+Key bindings: Use the arrow keys **up, down, left, right** to move the player.
+If you are hit by an enemy bug the player position will be reset to starting position. Time to try again!
+If you reach the water without being hit you win. _**Congratulations!**_
+
+## How can I modify the game?
+If you want to change the difficulty, you can add/ remove enemies and 
+change their speed. The more enemies and the faster they are, the harder it gets. Check the last section of **js/app.js**. 
+The comments below the `var player` around line 120 explain how to add enemies.
+To make further changes a deeper understanding of app.js may be necessary.
+Check out the comments! **;)**
