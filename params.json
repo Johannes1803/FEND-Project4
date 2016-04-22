@@ -1,0 +1,6 @@
+{
+  "name": "Fend-project4",
+  "tagline": "JS/ Canvas Game",
+  "body": "# Java Script ARCADE GAME\r\n\r\n## What is it?\r\n\r\nA game based on  HTML canvas and JavaScript. \r\n\r\n## How do I start the game?\r\nIn order to play it open the .html file in a browser of your choice.\r\n\r\n## What rules do I need to know?\r\nGoal of the game: reach the water at the top of the page\r\nKey bindings: Use the arrow keys **up, down, left, right** to move the player.\r\nIf you are hit by an enemy bug the player position will be reset to starting position. Time to try again!\r\nIf you reach the water without being hit you win. _**Congratulations!**_\r\n\r\n## How can I modify the game?\r\nIf you want to change the difficulty, you can add/ remove enemies and \r\nchange their speed. The more enemies and the faster they are, the harder it gets. Check the last section of **js/app.js**. \r\nThe comments below the `var player` around line 120 explain how to add enemies.\r\nTo make further changes a deeper understanding of app.js may be necessary.\r\nCheck out the comments! **;)**",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
